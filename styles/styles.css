@@ -1,0 +1,63 @@
+
+
+
+
+/* shared style */
+#bg-color {
+    background-color: rgb(50, 48, 48);
+}
+
+#s {
+    color: aqua;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* header nav */
+
+/* .gym-head{
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.gym-nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gym-brand {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 47px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+}
+
+.nav-links {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 9px;
+}
+
+#home {
+    background-color: rgb(230, 83, 60);
+    border-radius: 47px;
+    padding: 10px 20px 10px 20px;
+}
+
+.gym-nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}

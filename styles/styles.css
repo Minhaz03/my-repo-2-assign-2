@@ -43,6 +43,11 @@
     align-items: center;
 } */
 
+.bars{
+    /* display: none; */
+    color: white;
+}
+
 .gym-nav {
     justify-content: space-between;
     align-items: center;
@@ -457,4 +462,76 @@ th {
     font-size: 1.5rem;
     font-weight: 500;
     /* margin: 20px; */
+}
+
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .bars{
+        display: block;
+        color: #dddddd;
+    }
+    .gym-brand{
+        font-size: 1.62rem;
+        margin-left: 50px;
+    }
+    .nav-body{
+        flex-direction: column;
+    }
+    .nav-head-left{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .btn{
+        flex-direction: row;
+    }
+    .main-grid-container{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .main-head-2{
+        flex-direction: column;
+    }
+    .main-2-img{
+        width: 90%;
+    }
+    .bmi-bg-color, 
+    .flex{
+        flex-direction: column;
+        padding: 0;
+    }
+    .bmi-table{
+        width: 50%;
+    }
+    .cal-bmi{
+        margin-left: -40px;
+    }
+    .bmi-cm{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .img-grid-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .img-grid{
+        margin-left: -20px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-2{
+        margin-left: 0;
+    }
+    .started{
+        margin-left: 0;
+    }
+    .footer-3{
+        margin-bottom: 100px ;
+    }
 }

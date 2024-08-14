@@ -44,7 +44,7 @@
 } */
 
 .bars{
-    /* display: none; */
+    display: none;
     color: white;
 }
 
@@ -96,8 +96,7 @@
 
 .head-text {
     color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 4.87rem;
+    font-size: 3.80rem;
     font-weight: 900;
     text-align: left;
 }
@@ -472,14 +471,23 @@ th {
     }
     .bars{
         display: block;
-        color: #dddddd;
+        margin-right: 30px;
     }
     .gym-brand{
         font-size: 1.62rem;
-        margin-left: 50px;
+    }
+    .btn{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
     }
     .nav-body{
         flex-direction: column;
+    }
+    .head-text{
+        font-size: 2rem;
     }
     .nav-head-left{
         flex-direction: column;

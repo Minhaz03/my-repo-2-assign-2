@@ -551,6 +551,13 @@ th {
     .btn {
         flex-direction: row;
     }
+    .main-head-text{
+        /* align-items: center; */
+        font-size: 0.7rem;
+    }
+    .main-head-title{
+        font-size: 2rem;
+    }
 
     .main-grid-container {
         flex-direction: column;
